@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7252B1415094C9300B0FC9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7252B1315094C9300B0FC9D /* UIKit.framework */; };
+		E7252B1615094C9300B0FC9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7252B1515094C9300B0FC9D /* Foundation.framework */; };
+		E7252B1815094C9300B0FC9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7252B1715094C9300B0FC9D /* CoreGraphics.framework */; };
+		E7252B1E15094C9300B0FC9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7252B1C15094C9300B0FC9D /* InfoPlist.strings */; };
+		E7252B2015094C9300B0FC9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7252B1F15094C9300B0FC9D /* main.m */; };
+		E7252B2415094C9300B0FC9D /* CCFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7252B2315094C9300B0FC9D /* CCFAppDelegate.m */; };
+		E7252B2715094C9300B0FC9D /* CCFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7252B2615094C9300B0FC9D /* CCFViewController.m */; };
+		E7252B2A15094C9300B0FC9D /* CCFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7252B2815094C9300B0FC9D /* CCFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E7252B0F15094C9300B0FC9D /* CCFScrollingTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCFScrollingTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7252B1315094C9300B0FC9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E7252B1515094C9300B0FC9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E7252B1715094C9300B0FC9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E7252B1B15094C9300B0FC9D /* CCFScrollingTabBar-Info.plist */ = {isa = PBXFileReference; path = "CCFScrollingTabBar-Info.plist"; sourceTree = "<group>"; };
+		E7252B1D15094C9300B0FC9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E7252B1F15094C9300B0FC9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7252B2115094C9300B0FC9D /* CCFScrollingTabBar-Prefix.pch */ = {isa = PBXFileReference; path = "CCFScrollingTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		E7252B2215094C9300B0FC9D /* CCFAppDelegate.h */ = {isa = PBXFileReference; path = CCFAppDelegate.h; sourceTree = "<group>"; };
+		E7252B2315094C9300B0FC9D /* CCFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCFAppDelegate.m; sourceTree = "<group>"; };
+		E7252B2515094C9300B0FC9D /* CCFViewController.h */ = {isa = PBXFileReference; path = CCFViewController.h; sourceTree = "<group>"; };
+		E7252B2615094C9300B0FC9D /* CCFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCFViewController.m; sourceTree = "<group>"; };
+		E7252B2915094C9300B0FC9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7252B0C15094C9300B0FC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7252B1415094C9300B0FC9D /* UIKit.framework in Frameworks */,
+				E7252B1615094C9300B0FC9D /* Foundation.framework in Frameworks */,
+				E7252B1815094C9300B0FC9D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7252B0415094C9300B0FC9D = {
+			isa = PBXGroup;
+			children = (
+				E7252B1915094C9300B0FC9D /* CCFScrollingTabBar */,
+				E7252B1215094C9300B0FC9D /* Frameworks */,
+				E7252B1015094C9300B0FC9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7252B1015094C9300B0FC9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7252B0F15094C9300B0FC9D /* CCFScrollingTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7252B1215094C9300B0FC9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7252B1315094C9300B0FC9D /* UIKit.framework */,
+				E7252B1515094C9300B0FC9D /* Foundation.framework */,
+				E7252B1715094C9300B0FC9D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7252B1915094C9300B0FC9D /* CCFScrollingTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E7252B2215094C9300B0FC9D /* CCFAppDelegate.h */,
+				E7252B2315094C9300B0FC9D /* CCFAppDelegate.m */,
+				E7252B2515094C9300B0FC9D /* CCFViewController.h */,
+				E7252B2615094C9300B0FC9D /* CCFViewController.m */,
+				E7252B2815094C9300B0FC9D /* CCFViewController.xib */,
+				E7252B1A15094C9300B0FC9D /* Supporting Files */,
+			);
+			path = CCFScrollingTabBar;
+			sourceTree = "<group>";
+		};
+		E7252B1A15094C9300B0FC9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7252B1B15094C9300B0FC9D /* CCFScrollingTabBar-Info.plist */,
+				E7252B1C15094C9300B0FC9D /* InfoPlist.strings */,
+				E7252B1F15094C9300B0FC9D /* main.m */,
+				E7252B2115094C9300B0FC9D /* CCFScrollingTabBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7252B0E15094C9300B0FC9D /* CCFScrollingTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7252B2D15094C9300B0FC9D /* Build configuration list for PBXNativeTarget "CCFScrollingTabBar" */;
+			buildPhases = (
+				E7252B0B15094C9300B0FC9D /* Sources */,
+				E7252B0C15094C9300B0FC9D /* Frameworks */,
+				E7252B0D15094C9300B0FC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCFScrollingTabBar;
+			productName = CCFScrollingTabBar;
+			productReference = E7252B0F15094C9300B0FC9D /* CCFScrollingTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7252B0615094C9300B0FC9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CCF;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E7252B0915094C9300B0FC9D /* Build configuration list for PBXProject "CCFScrollingTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7252B0415094C9300B0FC9D;
+			productRefGroup = E7252B1015094C9300B0FC9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7252B0E15094C9300B0FC9D /* CCFScrollingTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7252B0D15094C9300B0FC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7252B1E15094C9300B0FC9D /* InfoPlist.strings in Resources */,
+				E7252B2A15094C9300B0FC9D /* CCFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7252B0B15094C9300B0FC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7252B2015094C9300B0FC9D /* main.m in Sources */,
+				E7252B2415094C9300B0FC9D /* CCFAppDelegate.m in Sources */,
+				E7252B2715094C9300B0FC9D /* CCFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E7252B1C15094C9300B0FC9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7252B1D15094C9300B0FC9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7252B2815094C9300B0FC9D /* CCFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7252B2915094C9300B0FC9D /* en */,
+			);
+			name = CCFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7252B2B15094C9300B0FC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E7252B2C15094C9300B0FC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7252B2E15094C9300B0FC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCFScrollingTabBar/CCFScrollingTabBar-Prefix.pch";
+				INFOPLIST_FILE = "CCFScrollingTabBar/CCFScrollingTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E7252B2F15094C9300B0FC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CCFScrollingTabBar/CCFScrollingTabBar-Prefix.pch";
+				INFOPLIST_FILE = "CCFScrollingTabBar/CCFScrollingTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7252B0915094C9300B0FC9D /* Build configuration list for PBXProject "CCFScrollingTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7252B2B15094C9300B0FC9D /* Debug */,
+				E7252B2C15094C9300B0FC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7252B2D15094C9300B0FC9D /* Build configuration list for PBXNativeTarget "CCFScrollingTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7252B2E15094C9300B0FC9D /* Debug */,
+				E7252B2F15094C9300B0FC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7252B0615094C9300B0FC9D /* Project object */;
+}
