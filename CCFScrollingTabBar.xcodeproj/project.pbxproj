@@ -23,6 +23,7 @@
 		E770CA5616C899F500A69978 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E770CA4E16C899F500A69978 /* InfoPlist.strings */; };
 		E770CA5716C899F500A69978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E770CA4F16C899F500A69978 /* main.m */; };
 		E770CA5916C89B9E00A69978 /* CCFScrollingTabBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E770CA5816C89B9E00A69978 /* CCFScrollingTabBar.podspec */; };
+		E770CA5B16C8FCCD00A69978 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E770CA5A16C8FCCD00A69978 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		E770CA4E16C899F500A69978 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		E770CA4F16C899F500A69978 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E770CA5816C89B9E00A69978 /* CCFScrollingTabBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CCFScrollingTabBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E770CA5A16C8FCCD00A69978 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.man; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		E7252B0415094C9300B0FC9D = {
 			isa = PBXGroup;
 			children = (
+				E770CA5A16C8FCCD00A69978 /* LICENSE */,
 				E770CA5816C89B9E00A69978 /* CCFScrollingTabBar.podspec */,
 				E770CA4216C899F500A69978 /* example */,
 				E770CA2B16C8997300A69978 /* source */,
@@ -200,6 +203,7 @@
 				E770CA5516C899F500A69978 /* CCFViewController.xib in Resources */,
 				E770CA5616C899F500A69978 /* InfoPlist.strings in Resources */,
 				E770CA5916C89B9E00A69978 /* CCFScrollingTabBar.podspec in Resources */,
+				E770CA5B16C8FCCD00A69978 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
