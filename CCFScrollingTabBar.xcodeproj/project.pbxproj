@@ -10,27 +10,59 @@
 		E7252B1415094C9300B0FC9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7252B1315094C9300B0FC9D /* UIKit.framework */; };
 		E7252B1615094C9300B0FC9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7252B1515094C9300B0FC9D /* Foundation.framework */; };
 		E7252B1815094C9300B0FC9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7252B1715094C9300B0FC9D /* CoreGraphics.framework */; };
-		E7252B1E15094C9300B0FC9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7252B1C15094C9300B0FC9D /* InfoPlist.strings */; };
-		E7252B2015094C9300B0FC9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7252B1F15094C9300B0FC9D /* main.m */; };
-		E7252B2415094C9300B0FC9D /* CCFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7252B2315094C9300B0FC9D /* CCFAppDelegate.m */; };
-		E7252B2715094C9300B0FC9D /* CCFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7252B2615094C9300B0FC9D /* CCFViewController.m */; };
-		E7252B2A15094C9300B0FC9D /* CCFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7252B2815094C9300B0FC9D /* CCFViewController.xib */; };
+		E7252B3A15095BED00B0FC9D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7252B3915095BED00B0FC9D /* QuartzCore.framework */; };
+		E770CA3D16C899BE00A69978 /* CCFScrollableTab.m in Sources */ = {isa = PBXBuildFile; fileRef = E770CA2D16C899BE00A69978 /* CCFScrollableTab.m */; };
+		E770CA3E16C899BE00A69978 /* CCFScrollableTabContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E770CA3016C899BE00A69978 /* CCFScrollableTabContentView.m */; };
+		E770CA3F16C899BE00A69978 /* CCFScrollableTabScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E770CA3416C899BE00A69978 /* CCFScrollableTabScrollView.m */; };
+		E770CA4016C899BE00A69978 /* CCFScrollableTabStop.m in Sources */ = {isa = PBXBuildFile; fileRef = E770CA3716C899BE00A69978 /* CCFScrollableTabStop.m */; };
+		E770CA4116C899BE00A69978 /* CCFScrollableTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = E770CA3A16C899BE00A69978 /* CCFScrollableTabView.m */; };
+		E770CA5016C899F500A69978 /* CCFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E770CA4416C899F500A69978 /* CCFAppDelegate.m */; };
+		E770CA5116C899F500A69978 /* CCFScrollingTabBar-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E770CA4516C899F500A69978 /* CCFScrollingTabBar-Info.plist */; };
+		E770CA5216C899F500A69978 /* CCFTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E770CA4816C899F500A69978 /* CCFTabStripViewController.m */; };
+		E770CA5316C899F500A69978 /* CCFTabStripViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E770CA4916C899F500A69978 /* CCFTabStripViewController.xib */; };
+		E770CA5416C899F500A69978 /* CCFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E770CA4B16C899F500A69978 /* CCFViewController.m */; };
+		E770CA5516C899F500A69978 /* CCFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E770CA4C16C899F500A69978 /* CCFViewController.xib */; };
+		E770CA5616C899F500A69978 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E770CA4E16C899F500A69978 /* InfoPlist.strings */; };
+		E770CA5716C899F500A69978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E770CA4F16C899F500A69978 /* main.m */; };
+		E770CA5916C89B9E00A69978 /* CCFScrollingTabBar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = E770CA5816C89B9E00A69978 /* CCFScrollingTabBar.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E7252B0F15094C9300B0FC9D /* CCFScrollingTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCFScrollingTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7252B0F15094C9300B0FC9D /* Scrolling Tab Bar Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scrolling Tab Bar Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7252B1315094C9300B0FC9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E7252B1515094C9300B0FC9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E7252B1715094C9300B0FC9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E7252B1B15094C9300B0FC9D /* CCFScrollingTabBar-Info.plist */ = {isa = PBXFileReference; path = "CCFScrollingTabBar-Info.plist"; sourceTree = "<group>"; };
-		E7252B1D15094C9300B0FC9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E7252B1F15094C9300B0FC9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E7252B2115094C9300B0FC9D /* CCFScrollingTabBar-Prefix.pch */ = {isa = PBXFileReference; path = "CCFScrollingTabBar-Prefix.pch"; sourceTree = "<group>"; };
-		E7252B2215094C9300B0FC9D /* CCFAppDelegate.h */ = {isa = PBXFileReference; path = CCFAppDelegate.h; sourceTree = "<group>"; };
-		E7252B2315094C9300B0FC9D /* CCFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCFAppDelegate.m; sourceTree = "<group>"; };
-		E7252B2515094C9300B0FC9D /* CCFViewController.h */ = {isa = PBXFileReference; path = CCFViewController.h; sourceTree = "<group>"; };
-		E7252B2615094C9300B0FC9D /* CCFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCFViewController.m; sourceTree = "<group>"; };
-		E7252B2915094C9300B0FC9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCFViewController.xib; sourceTree = "<group>"; };
+		E7252B3915095BED00B0FC9D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E770CA2C16C899BE00A69978 /* CCFScrollableTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFScrollableTab.h; path = source/CCFScrollableTab.h; sourceTree = "<group>"; };
+		E770CA2D16C899BE00A69978 /* CCFScrollableTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCFScrollableTab.m; path = source/CCFScrollableTab.m; sourceTree = "<group>"; };
+		E770CA2E16C899BE00A69978 /* CCFScrollableTabColorKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFScrollableTabColorKeys.h; path = source/CCFScrollableTabColorKeys.h; sourceTree = "<group>"; };
+		E770CA2F16C899BE00A69978 /* CCFScrollableTabContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFScrollableTabContentView.h; path = source/CCFScrollableTabContentView.h; sourceTree = "<group>"; };
+		E770CA3016C899BE00A69978 /* CCFScrollableTabContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCFScrollableTabContentView.m; path = source/CCFScrollableTabContentView.m; sourceTree = "<group>"; };
+		E770CA3116C899BE00A69978 /* CCFScrollableTabContentViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFScrollableTabContentViewDelegate.h; path = source/CCFScrollableTabContentViewDelegate.h; sourceTree = "<group>"; };
+		E770CA3216C899BE00A69978 /* CCFScrollableTabDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFScrollableTabDelegate.h; path = source/CCFScrollableTabDelegate.h; sourceTree = "<group>"; };
+		E770CA3316C899BE00A69978 /* CCFScrollableTabScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFScrollableTabScrollView.h; path = source/CCFScrollableTabScrollView.h; sourceTree = "<group>"; };
+		E770CA3416C899BE00A69978 /* CCFScrollableTabScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCFScrollableTabScrollView.m; path = source/CCFScrollableTabScrollView.m; sourceTree = "<group>"; };
+		E770CA3516C899BE00A69978 /* CCFScrollableTabScrollViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFScrollableTabScrollViewDelegate.h; path = source/CCFScrollableTabScrollViewDelegate.h; sourceTree = "<group>"; };
+		E770CA3616C899BE00A69978 /* CCFScrollableTabStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFScrollableTabStop.h; path = source/CCFScrollableTabStop.h; sourceTree = "<group>"; };
+		E770CA3716C899BE00A69978 /* CCFScrollableTabStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCFScrollableTabStop.m; path = source/CCFScrollableTabStop.m; sourceTree = "<group>"; };
+		E770CA3816C899BE00A69978 /* CCFScrollableTabStopDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFScrollableTabStopDelegate.h; path = source/CCFScrollableTabStopDelegate.h; sourceTree = "<group>"; };
+		E770CA3916C899BE00A69978 /* CCFScrollableTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFScrollableTabView.h; path = source/CCFScrollableTabView.h; sourceTree = "<group>"; };
+		E770CA3A16C899BE00A69978 /* CCFScrollableTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCFScrollableTabView.m; path = source/CCFScrollableTabView.m; sourceTree = "<group>"; };
+		E770CA3B16C899BE00A69978 /* CCFScrollableTabViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFScrollableTabViewDataSource.h; path = source/CCFScrollableTabViewDataSource.h; sourceTree = "<group>"; };
+		E770CA3C16C899BE00A69978 /* CCFScrollableTabViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCFScrollableTabViewDelegate.h; path = source/CCFScrollableTabViewDelegate.h; sourceTree = "<group>"; };
+		E770CA4316C899F500A69978 /* CCFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFAppDelegate.h; sourceTree = "<group>"; };
+		E770CA4416C899F500A69978 /* CCFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFAppDelegate.m; sourceTree = "<group>"; };
+		E770CA4516C899F500A69978 /* CCFScrollingTabBar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CCFScrollingTabBar-Info.plist"; sourceTree = "<group>"; };
+		E770CA4616C899F500A69978 /* CCFScrollingTabBar-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCFScrollingTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		E770CA4716C899F500A69978 /* CCFTabStripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFTabStripViewController.h; sourceTree = "<group>"; };
+		E770CA4816C899F500A69978 /* CCFTabStripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFTabStripViewController.m; sourceTree = "<group>"; };
+		E770CA4916C899F500A69978 /* CCFTabStripViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCFTabStripViewController.xib; sourceTree = "<group>"; };
+		E770CA4A16C899F500A69978 /* CCFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFViewController.h; sourceTree = "<group>"; };
+		E770CA4B16C899F500A69978 /* CCFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFViewController.m; sourceTree = "<group>"; };
+		E770CA4D16C899F500A69978 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCFViewController.xib; sourceTree = "<group>"; };
+		E770CA4E16C899F500A69978 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		E770CA4F16C899F500A69978 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E770CA5816C89B9E00A69978 /* CCFScrollingTabBar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CCFScrollingTabBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7252B3A15095BED00B0FC9D /* QuartzCore.framework in Frameworks */,
 				E7252B1415094C9300B0FC9D /* UIKit.framework in Frameworks */,
 				E7252B1615094C9300B0FC9D /* Foundation.framework in Frameworks */,
 				E7252B1815094C9300B0FC9D /* CoreGraphics.framework in Frameworks */,
@@ -50,7 +83,9 @@
 		E7252B0415094C9300B0FC9D = {
 			isa = PBXGroup;
 			children = (
-				E7252B1915094C9300B0FC9D /* CCFScrollingTabBar */,
+				E770CA5816C89B9E00A69978 /* CCFScrollingTabBar.podspec */,
+				E770CA4216C899F500A69978 /* example */,
+				E770CA2B16C8997300A69978 /* source */,
 				E7252B1215094C9300B0FC9D /* Frameworks */,
 				E7252B1015094C9300B0FC9D /* Products */,
 			);
@@ -59,7 +94,7 @@
 		E7252B1015094C9300B0FC9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7252B0F15094C9300B0FC9D /* CCFScrollingTabBar.app */,
+				E7252B0F15094C9300B0FC9D /* Scrolling Tab Bar Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +102,7 @@
 		E7252B1215094C9300B0FC9D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E7252B3915095BED00B0FC9D /* QuartzCore.framework */,
 				E7252B1315094C9300B0FC9D /* UIKit.framework */,
 				E7252B1515094C9300B0FC9D /* Foundation.framework */,
 				E7252B1715094C9300B0FC9D /* CoreGraphics.framework */,
@@ -74,36 +110,55 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E7252B1915094C9300B0FC9D /* CCFScrollingTabBar */ = {
+		E770CA2B16C8997300A69978 /* source */ = {
 			isa = PBXGroup;
 			children = (
-				E7252B2215094C9300B0FC9D /* CCFAppDelegate.h */,
-				E7252B2315094C9300B0FC9D /* CCFAppDelegate.m */,
-				E7252B2515094C9300B0FC9D /* CCFViewController.h */,
-				E7252B2615094C9300B0FC9D /* CCFViewController.m */,
-				E7252B2815094C9300B0FC9D /* CCFViewController.xib */,
-				E7252B1A15094C9300B0FC9D /* Supporting Files */,
+				E770CA2C16C899BE00A69978 /* CCFScrollableTab.h */,
+				E770CA2D16C899BE00A69978 /* CCFScrollableTab.m */,
+				E770CA2E16C899BE00A69978 /* CCFScrollableTabColorKeys.h */,
+				E770CA2F16C899BE00A69978 /* CCFScrollableTabContentView.h */,
+				E770CA3016C899BE00A69978 /* CCFScrollableTabContentView.m */,
+				E770CA3116C899BE00A69978 /* CCFScrollableTabContentViewDelegate.h */,
+				E770CA3216C899BE00A69978 /* CCFScrollableTabDelegate.h */,
+				E770CA3316C899BE00A69978 /* CCFScrollableTabScrollView.h */,
+				E770CA3416C899BE00A69978 /* CCFScrollableTabScrollView.m */,
+				E770CA3516C899BE00A69978 /* CCFScrollableTabScrollViewDelegate.h */,
+				E770CA3616C899BE00A69978 /* CCFScrollableTabStop.h */,
+				E770CA3716C899BE00A69978 /* CCFScrollableTabStop.m */,
+				E770CA3816C899BE00A69978 /* CCFScrollableTabStopDelegate.h */,
+				E770CA3916C899BE00A69978 /* CCFScrollableTabView.h */,
+				E770CA3A16C899BE00A69978 /* CCFScrollableTabView.m */,
+				E770CA3B16C899BE00A69978 /* CCFScrollableTabViewDataSource.h */,
+				E770CA3C16C899BE00A69978 /* CCFScrollableTabViewDelegate.h */,
 			);
-			path = CCFScrollingTabBar;
+			name = source;
 			sourceTree = "<group>";
 		};
-		E7252B1A15094C9300B0FC9D /* Supporting Files */ = {
+		E770CA4216C899F500A69978 /* example */ = {
 			isa = PBXGroup;
 			children = (
-				E7252B1B15094C9300B0FC9D /* CCFScrollingTabBar-Info.plist */,
-				E7252B1C15094C9300B0FC9D /* InfoPlist.strings */,
-				E7252B1F15094C9300B0FC9D /* main.m */,
-				E7252B2115094C9300B0FC9D /* CCFScrollingTabBar-Prefix.pch */,
+				E770CA4316C899F500A69978 /* CCFAppDelegate.h */,
+				E770CA4416C899F500A69978 /* CCFAppDelegate.m */,
+				E770CA4516C899F500A69978 /* CCFScrollingTabBar-Info.plist */,
+				E770CA4616C899F500A69978 /* CCFScrollingTabBar-Prefix.pch */,
+				E770CA4716C899F500A69978 /* CCFTabStripViewController.h */,
+				E770CA4816C899F500A69978 /* CCFTabStripViewController.m */,
+				E770CA4916C899F500A69978 /* CCFTabStripViewController.xib */,
+				E770CA4A16C899F500A69978 /* CCFViewController.h */,
+				E770CA4B16C899F500A69978 /* CCFViewController.m */,
+				E770CA4C16C899F500A69978 /* CCFViewController.xib */,
+				E770CA4E16C899F500A69978 /* InfoPlist.strings */,
+				E770CA4F16C899F500A69978 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E7252B0E15094C9300B0FC9D /* CCFScrollingTabBar */ = {
+		E7252B0E15094C9300B0FC9D /* Scrolling Tab Bar Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7252B2D15094C9300B0FC9D /* Build configuration list for PBXNativeTarget "CCFScrollingTabBar" */;
+			buildConfigurationList = E7252B2D15094C9300B0FC9D /* Build configuration list for PBXNativeTarget "Scrolling Tab Bar Demo" */;
 			buildPhases = (
 				E7252B0B15094C9300B0FC9D /* Sources */,
 				E7252B0C15094C9300B0FC9D /* Frameworks */,
@@ -113,9 +168,9 @@
 			);
 			dependencies = (
 			);
-			name = CCFScrollingTabBar;
+			name = "Scrolling Tab Bar Demo";
 			productName = CCFScrollingTabBar;
-			productReference = E7252B0F15094C9300B0FC9D /* CCFScrollingTabBar.app */;
+			productReference = E7252B0F15094C9300B0FC9D /* Scrolling Tab Bar Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,7 +194,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E7252B0E15094C9300B0FC9D /* CCFScrollingTabBar */,
+				E7252B0E15094C9300B0FC9D /* Scrolling Tab Bar Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -149,8 +204,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7252B1E15094C9300B0FC9D /* InfoPlist.strings in Resources */,
-				E7252B2A15094C9300B0FC9D /* CCFViewController.xib in Resources */,
+				E770CA5116C899F500A69978 /* CCFScrollingTabBar-Info.plist in Resources */,
+				E770CA5316C899F500A69978 /* CCFTabStripViewController.xib in Resources */,
+				E770CA5516C899F500A69978 /* CCFViewController.xib in Resources */,
+				E770CA5616C899F500A69978 /* InfoPlist.strings in Resources */,
+				E770CA5916C89B9E00A69978 /* CCFScrollingTabBar.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,27 +219,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7252B2015094C9300B0FC9D /* main.m in Sources */,
-				E7252B2415094C9300B0FC9D /* CCFAppDelegate.m in Sources */,
-				E7252B2715094C9300B0FC9D /* CCFViewController.m in Sources */,
+				E770CA3D16C899BE00A69978 /* CCFScrollableTab.m in Sources */,
+				E770CA3E16C899BE00A69978 /* CCFScrollableTabContentView.m in Sources */,
+				E770CA3F16C899BE00A69978 /* CCFScrollableTabScrollView.m in Sources */,
+				E770CA4016C899BE00A69978 /* CCFScrollableTabStop.m in Sources */,
+				E770CA4116C899BE00A69978 /* CCFScrollableTabView.m in Sources */,
+				E770CA5016C899F500A69978 /* CCFAppDelegate.m in Sources */,
+				E770CA5216C899F500A69978 /* CCFTabStripViewController.m in Sources */,
+				E770CA5416C899F500A69978 /* CCFViewController.m in Sources */,
+				E770CA5716C899F500A69978 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E7252B1C15094C9300B0FC9D /* InfoPlist.strings */ = {
+		E770CA4C16C899F500A69978 /* CCFViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E7252B1D15094C9300B0FC9D /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E7252B2815094C9300B0FC9D /* CCFViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7252B2915094C9300B0FC9D /* en */,
+				E770CA4D16C899F500A69978 /* en */,
 			);
 			name = CCFViewController.xib;
 			sourceTree = "<group>";
@@ -238,8 +294,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CCFScrollingTabBar/CCFScrollingTabBar-Prefix.pch";
-				INFOPLIST_FILE = "CCFScrollingTabBar/CCFScrollingTabBar-Info.plist";
+				GCC_PREFIX_HEADER = "example/CCFScrollingTabBar-Prefix.pch";
+				INFOPLIST_FILE = "example/CCFScrollingTabBar-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -249,8 +305,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CCFScrollingTabBar/CCFScrollingTabBar-Prefix.pch";
-				INFOPLIST_FILE = "CCFScrollingTabBar/CCFScrollingTabBar-Info.plist";
+				GCC_PREFIX_HEADER = "example/CCFScrollingTabBar-Prefix.pch";
+				INFOPLIST_FILE = "example/CCFScrollingTabBar-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -268,13 +324,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E7252B2D15094C9300B0FC9D /* Build configuration list for PBXNativeTarget "CCFScrollingTabBar" */ = {
+		E7252B2D15094C9300B0FC9D /* Build configuration list for PBXNativeTarget "Scrolling Tab Bar Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E7252B2E15094C9300B0FC9D /* Debug */,
 				E7252B2F15094C9300B0FC9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

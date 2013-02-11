@@ -16,6 +16,8 @@
 #import "CCFScrollableTabScrollViewDelegate.h"
 #import <QuartzCore/QuartzCore.h>
 
+static CGFloat WindowWidth;
+
 static CCFScrollableTabView *commonInit(CCFScrollableTabView *self) {
     CGRect adjustedFrame = CGRectMake(self.frame.origin.x, self.frame.origin.y, self.frame.size.width, 41);
     self.frame = adjustedFrame;
@@ -48,6 +50,13 @@ static CCFScrollableTabView *commonInit(CCFScrollableTabView *self) {
 @synthesize dataSource = _dataSource;
 
 #pragma mark - Class methods
+
++ (void)initialize {
+    if( self == [CCFScrollableTabView class] ) {
+        CGRect screenRect = [[UIScreen mainScreen] bounds];
+        WindowWidth = screenRect.size.width;
+    }
+}
 
 + (Class)layerClass {
     return [CAGradientLayer class];
@@ -139,7 +148,7 @@ static CCFScrollableTabView *commonInit(CCFScrollableTabView *self) {
         _leftStop.hidden = YES;
     else
         _leftStop.hidden = NO;
-    if( offset.x + 320 >= _scrollView.contentSize.width )
+    if( offset.x + WindowWidth >= _scrollView.contentSize.width )
         _rightStop.hidden = YES;
     else
         _rightStop.hidden = NO;
@@ -167,8 +176,8 @@ static CCFScrollableTabView *commonInit(CCFScrollableTabView *self) {
     else
     {
         xOffset = offset.x + 50.0;
-        if( xOffset + 320 > _scrollView.contentSize.width )
-            xOffset = _scrollView.contentSize.width - 320;
+        if( xOffset + WindowWidth > _scrollView.contentSize.width )
+            xOffset = _scrollView.contentSize.width - WindowWidth;
         offset = CGPointMake(xOffset, 0.0);
     }
     
