@@ -64,23 +64,19 @@ static NSArray *Languages;
 #pragma mark - CCFScrollableTabViewDataSource
 
 
-- (UIColor *)textColorInScrollableTabView:(CCFScrollableTabView *)tabView;
-{
+- (UIColor *)textColorInScrollableTabView:(CCFScrollableTabView *)tabView {
     return [UIColor whiteColor];
 }
 
-- (UIColor *)darkColorInScrollableTabView:(CCFScrollableTabView *)tabView;
-{
-    return [UIColor colorWithRed:18.0f/255.0f green:39.0f/255.0f blue:108.0f/255.0f alpha:1.0f];
+- (UIColor *)darkColorInScrollableTabView:(CCFScrollableTabView *)tabView {
+    return [UIColor colorWithRed:0.0706f green:0.1529f blue:0.4235f alpha:1.0f];
 }
 
-- (UIColor *)lightColorInScrollableTabView:(CCFScrollableTabView *)tabView;
-{
+- (UIColor *)lightColorInScrollableTabView:(CCFScrollableTabView *)tabView {
     return [UIColor colorWithRed:0.258f green:0.639f blue:0.890f alpha:1.0f];
 }
 
-- (NSArray *)titlesInScrollableTabView:(CCFScrollableTabView *)tabView;
-{
+- (NSArray *)titlesInScrollableTabView:(CCFScrollableTabView *)tabView {
     return [NSArray arrayWithObjects:@"Afrikaans",@"Basque",@"Catalan",@"Croatian",@"Danish",@"English",@"French",@"German",@"Hungarian", nil];
 }
 
