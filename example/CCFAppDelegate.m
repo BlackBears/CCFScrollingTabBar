@@ -9,7 +9,6 @@
 #import "CCFAppDelegate.h"
 
 #import "CCFViewController.h"
-#import "CCFTabStripViewController.h"
 
 @implementation CCFAppDelegate
 

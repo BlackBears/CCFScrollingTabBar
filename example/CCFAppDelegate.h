@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class CCFViewController,CCFTabStripViewController;
+@class CCFViewController;
 
 @interface CCFAppDelegate : UIResponder <UIApplicationDelegate>
 
