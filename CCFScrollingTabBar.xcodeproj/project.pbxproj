@@ -158,6 +158,7 @@
 				E7252B0B15094C9300B0FC9D /* Sources */,
 				E7252B0C15094C9300B0FC9D /* Frameworks */,
 				E7252B0D15094C9300B0FC9D /* Resources */,
+				E770CA5C16C9127E00A69978 /* Generate documentation */,
 			);
 			buildRules = (
 			);
@@ -208,6 +209,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E770CA5C16C9127E00A69978 /* Generate documentation */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate documentation";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd /usr/local/bin\n./appledoc --project-name CCFScrollingTabBar --project-company \"Cocoa Factory, LLC\" --company-id com.cocoafactory --output \"/Volumes/Weinberg/CocoaFactory/shared/libraries+frameworks/project wikis/CCFScrollingTabBar/appledoc\" --templates \"~/Library/Application Support/appledoc/Templates\" --no-create-docset --logformat xcode --exit-threshold 2 /Volumes/Weinberg/CocoaFactory/shared/libraries+frameworks/iOS/CCFScrollingTabBar/source";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E7252B0B15094C9300B0FC9D /* Sources */ = {
