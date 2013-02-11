@@ -3,10 +3,7 @@
 
 A refined scrolling tab bar for iPhone.
 
-### We're working on getting everything setup.  Gives a little time. ###
-
-
-![CCFScrollingTabBar image](-https://raw.github.com/cocoa-factory/CCFScrollingTabBar/screenshots/screenshots/tab-bar-img-001.jpg)
+![CCFScrollingTabBar image](https://raw.github.com/cocoa-factory/CCFScrollingTabBar/screenshots/screenshots/tab-bar-img-001.jpg)
 
 ####Getting started####
 
@@ -38,3 +35,17 @@ To get started using CCFScrollingTabBar, download the source and checkout the sa
 }
 ```
 
+- Implement the following data source method:
+
+```
+#pragma mark - CCFScrollableTabViewDelegate
+
+- (void)scrollableTabView:(CCFScrollableTabView *)tabView didSelectItemAtIndex:(NSInteger)index;
+{
+    NSLog(@"%s - SELECTED = %d",__FUNCTION__,index);
+    NSString *language = Languages[index];
+    self.textLabel.text = LanguageTexts[language];
+}
+```
+
+And that's it!
