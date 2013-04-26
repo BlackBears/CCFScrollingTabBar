@@ -12,7 +12,7 @@ To get started using CCFScrollingTabBar, download the source and checkout the sa
 - Created a new view controller + nib
 - In the nib, create a view 41 pixels high, 320 pixels wide (spanning the iOs screen) and give it a custom class of `CCFScrollableTabView`
 - In our custom view controller's `viewDidLoad` method, set the `delegate` and `dataSource` properties on the scrollable tab view to ourselves.
-- Implement the delegate methods:
+- Implement the data source methods:
 
 ```
 #pragma mark - CCFScrollableTabViewDataSource
@@ -35,7 +35,7 @@ To get started using CCFScrollingTabBar, download the source and checkout the sa
 }
 ```
 
-- Implement the following data source method:
+- Implement the following delegate method:
 
 ```
 #pragma mark - CCFScrollableTabViewDelegate
